@@ -1,13 +1,11 @@
 /*external stylesheet for home page*/
 
 /*background image*/
-
 body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background: url(apple-iphone-books-desk.jpg) no-repeat center center fixed; 
+   background-image: url("hands-coffee-cup-apple.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-repeat:no-repeat;
   background-size: cover;
 }

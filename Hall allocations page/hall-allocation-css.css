@@ -3,22 +3,6 @@ body {
   padding-bottom: 20px;
 }
 
-theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
-}
-
-
-.navbar {
-  margin-bottom: 20px;
-}
-
-
-theme-showcase .navbar .container {
-  width: auto;
-}
-
 h1{
 	color: #F7F8E0;
 	text-shadow: 2px 2px #0101DF;  
@@ -53,3 +37,11 @@ font-size: 25;
 float: center;
 display:inline-flex;
  }
+
+.logo
+{width:100px;
+height:75px;
+
+right:1000px;
+top:10px;
+}

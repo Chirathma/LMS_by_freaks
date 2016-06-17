@@ -1,0 +1,55 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+theme-showcase .navbar .container {
+  width: auto;
+}
+
+h1{
+	color: #F7F8E0;
+	text-shadow: 2px 2px #0101DF;  
+}
+
+p{  
+	font-size: 20;
+	text-align:top-right;
+
+}
+
+ #computing{
+color: #424242;
+font-style: italic;
+font-size: 25;
+float: left;
+display: inline-flex;
+ }
+
+ #management{
+ color: #424242;
+font-style: italic;
+font-size: 25;
+float: center;
+display:inline-flex;
+}
+
+ #engineering{
+ color: #424242;
+font-style: italic;
+font-size: 25;
+float: center;
+display:inline-flex;
+ }

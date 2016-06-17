@@ -1,12 +1,11 @@
 /*external stylesheet for Hall allocation page*/
 
 /*background image*/
-body {
-   background-image: url("#"); 
+body { 
+  background: url(pexels-photo-52608.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-repeat:no-repeat;
   background-size: cover;
 }
 

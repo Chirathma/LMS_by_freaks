@@ -1,22 +1,46 @@
+<!DOCTYPE html>
 <html>
+    <head>  
+      <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--The above 3 tags must come first in head-->
 
-  <head>  
-      <link rel="stylesheet" type="text/css" href="stylesheet.css">
-      <title>hall allocation</title>
-      <script>
-      function bigImage(x) {
-          x.style.height = "250px";
-          x.style.width = "220px";
-      }
+        <meta name="description" content="Learning Management System for (BMIS111) Internet Technology assignment ">
+        <meta name="author" content="Sewwa_Bandara">
+        <link rel="icon" href="f.ico">
 
-      function normalImage(x) {
-          x.style.height = "225px";
-          x.style.width = "200px";
-      }
-      </script>
-  </head>
-  <body background="C:\Users\Imalsha\Pictures\books-straw.jpg">
-    <nav class="navbar navbar-default">
+        <!-- Custom styles for this template -->
+        <link href="navbar.css" rel="stylesheet">
+
+        <title>LMS by FreakyFour</title>
+
+        <!--CSS file for background-->
+        <link rel="stylesheet" type="text/css" href="hall-allocation-background.css">
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"   integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Bootstrap theme -->
+        <link type="text/css" href="bootstrap-theme.min.css" rel="stylesheet">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link type="text/css" href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="D:\Github\FreakyFour_LMS\Home page\bootstrap-3.3.6-dist\css\theme.css" rel="stylesheet">
+
+        
+        <link type="text/css" href="hall-allocation-css.css" rel="stylesheet">
+        
+        <script type="text/JavaScript" src="hall-allocation-js.js"> </script>
+    </head>
+    <body>
+
+      <div class="container">
+
+              <!-- Static navbar -->
+            <nav class="navbar navbar-default">
                 <div class="container-fluid">
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,14 +53,15 @@
                   </div>
                   <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Home</a></li>
                       <li><a href="#">About</a></li>
                       
                       <li><a href="#">News</a></li>
                       <li><a href="#">Events</a></li>
+                      <li class="active"><a href="#">Facilities</a></li>
                       <li><a href="#">Calender</a></li>
                       <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="#">Devops</a></li>
                           <li><a href="#">Foss Community</a></li>
@@ -50,19 +75,21 @@
                       <li><a href="#">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">                      
-                      <li><a href="">Logout</a></li>
+                      <li><a href="D:\LMS\Login page\log-in-page.html">Login</a></li>
                       <li><a href="D:\LMS\Registeration page\registeration-page.html">Register</a></li>
-                      </ul>
+                    </ul>
                 </div><!--/.nav-collapse -->
             </nav><!-- /.Static navbar -->
-        </div><!--/.container-fluid -->
-        
+        </div><!--/.container-fluid -->        
 
-        <h1><marquee direction="left">Hall allocation and other facilities</marquee></h1>
+        <div> <h1> <marquee direction="left">Hall allocation and other facilities</marquee></h1>
+        </div>
 
-
-        <img src="http://www.nsbm.lk/img/about/84573268.jpg"  height="400" width="250">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2iHCij5sDeqtP3aYatWnAlwylAeTvX858Z4wjgjAoykLOkfdnmQ" height="100" width="150" align="top-right">
+        <div>
+          <img src="http://www.nsbm.lk/img/about/84573268.jpg" alt="nsbm main building" height="400" width="250">
+          <img class="logo" alt="nsbm logo" src="NSBM-logo.jpg">
+        </div>
+          
         <p>
             National School of Business Management has three faculties; school of business, school of computing and school of engineering.Good facilities for students are incorporated by NSBM in order to make a pleasant environment to the students of NSBM.<br><br>
         </p>
@@ -86,7 +113,7 @@
         <img onmouseover="bigImage(this)" onmouseout="normalImage(this)" border="0" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvp2N-_KDkIoAcIzNt6a4IbmBNTfZBSAXVKczXIxEOdgQ8eCfLWQ " alt="" align="right"/>
         </div>
 
-</body>
+  </body>
 
 
 
